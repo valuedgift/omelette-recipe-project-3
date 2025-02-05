@@ -1,0 +1,51 @@
+.card {
+  background-color: #FFFFFF;
+}
+
+.smple-omlete {
+  font-family: young serif;
+  color:#312E2C;
+}
+
+h6 {
+  color:#7A284E;
+}
+
+.rounded-2 {
+  background-color:#FFF7FB;
+}
+
+ul {
+  color:#5F564D;
+}
+
+/*The 3 elements shares same styling*/
+.Ingrednts, .instrction, .nutrtion {
+  font-family: young serif;
+  color:#854632;
+}
+
+th {
+  color:#854632;
+}
+
+/*The following elements/selectors shares same attributes*/
+.my-4, .my-4 p, ol, .nutrtion-p, .ps-5 {
+  font-family: Outfit;
+  color:#5F564D;
+}
+
+/*Remove image border-radius at small screen*/
+@media (min-width: 576px) {
+  img {
+    border-style: none;
+    border-radius: 1rem;
+  }
+}
+
+/*Add padding on Text-content at small screen*/
+@media (max-width: 576px) {
+  .text-content {
+    padding: 1rem;
+  }
+}
